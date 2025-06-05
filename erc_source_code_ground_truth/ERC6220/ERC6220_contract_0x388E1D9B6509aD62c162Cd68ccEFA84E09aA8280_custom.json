@@ -1,0 +1,192 @@
+{
+    "custom_functions": [
+        {
+            "function": "getCollectionData(address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "getInterfaceSupport(address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "royaltyInfo(uint256,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "name()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "symbol()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "tokenURI(uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "balanceOf(address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "ownerOf(uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "safeTransferFrom(address,address,uint256,bytes)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "safeTransferFrom(address,address,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "transferFrom(address,address,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "approve(address,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "setApprovalForAll(address,bool)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "getApproved(uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "isApprovedForAll(address,address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "supportsInterface(bytes4)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "equip(IntakeEquip)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "unequip(uint256,uint64,uint64)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "isChildEquipped(uint256,address,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "canTokenBeEquippedWithAssetIntoSlot(address,uint256,uint64,uint64)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "getEquipment(uint256,address,uint64)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "getAssetAndEquippableData(uint256,uint64)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "isTransferable(uint256,address,address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "acceptAsset(uint256,uint256,uint64)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "rejectAsset(uint256,uint256,uint64)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "rejectAllAssets(uint256,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "setPriority(uint256,uint64[])",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "getActiveAssets(uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "getPendingAssets(uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "getActiveAssetPriorities(uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "getAssetReplacements(uint256,uint64)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "getAssetMetadata(uint256,uint64)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "approveForAssets(address,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "getApprovedForAssets(uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "setApprovalForAllForAssets(address,bool)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "isApprovedForAllForAssets(address,address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "directOwnerOf(uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "burn(uint256,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "addChild(uint256,uint256,bytes)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "acceptChild(uint256,uint256,address,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "rejectAllChildren(uint256,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "transferChild(uint256,address,uint256,uint256,address,uint256,bool,bytes)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "childrenOf(uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "pendingChildrenOf(uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "childOf(uint256,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "pendingChildOf(uint256,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "nestTransferFrom(address,address,uint256,uint256,bytes)",
+            "hash": "6cb927d8"
+        }
+    ]
+}

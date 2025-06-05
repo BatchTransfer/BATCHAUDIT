@@ -1,0 +1,288 @@
+{
+    "custom_functions": [
+        {
+            "function": "tokenInfos(uint256[])",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "setEggProbabilities(uint64[NUM_EGG_TYPES])",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "setEntropyOracle(IEntropyOracle)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "setMaxNumActivationsPerDay(uint32)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "activate(uint256[])",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_handleSale(address,uint64,bytes)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_exists(uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "supportsInterface(bytes4)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_baseURI()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "setApprovalForAll(address,bool)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "approve(address,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "transferFrom(address,address,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "safeTransferFrom(address,address,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "safeTransferFrom(address,address,uint256,bytes)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "onERC721Received(address,address,uint256,bytes)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_startTokenId()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_nextTokenId()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "totalSupply()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_totalMinted()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_totalBurned()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "balanceOf(address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_numberMinted(address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_numberBurned(address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_getAux(address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_setAux(address,uint64)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "name()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "symbol()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "tokenURI(uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "ownerOf(uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_ownershipOf(uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_ownershipAt(uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_initializeOwnershipAt(uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_packedOwnershipOf(uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_unpackedOwnership(uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_packOwnershipData(address,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_nextInitializedFlag(uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "getApproved(uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "isApprovedForAll(address,address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_isSenderApprovedOrOwner(address,address,address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_getApprovedSlotAndAddress(uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_beforeTokenTransfers(address,address,uint256,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_afterTokenTransfers(address,address,uint256,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_checkContractOnERC721Received(address,address,uint256,bytes)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_mint(address,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_mintERC2309(address,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_safeMint(address,uint256,bytes)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_safeMint(address,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_burn(uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_burn(uint256,bool)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_setExtraDataAt(uint256,uint24)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_extraData(address,address,uint24)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_nextExtraData(address,address,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_msgSenderERC721A()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_toString(uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_refreshMetadata(uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_refreshMetadata(uint256,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "setDefaultRoyalty(address,uint96)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "emitMetadataUpdateForAll()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "royaltyInfo(uint256,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_feeDenominator()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_setDefaultRoyalty(address,uint96)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_deleteDefaultRoyalty()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_setTokenRoyalty(uint256,address,uint96)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_resetTokenRoyalty(uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_isSenderAllowedToSpend(address,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_doRedeem(address,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "handleSale(address,uint64,bytes)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_currentDay()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_setMaxNumActivationsPerDay(uint32)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_activate(uint256[])",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "activated(uint256)",
+            "hash": "6cb927d8"
+        }
+    ]
+}

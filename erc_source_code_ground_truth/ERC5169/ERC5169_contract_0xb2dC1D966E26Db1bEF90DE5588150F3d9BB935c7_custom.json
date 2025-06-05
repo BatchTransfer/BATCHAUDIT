@@ -1,0 +1,192 @@
+{
+    "custom_functions": [
+        {
+            "function": "contractURI()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "tokenURI(uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "setTransferExempt(address,bool)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "setWebsiteUrl(string)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "setBaseURI(string)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "setContractURI(string)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "supportsInterface(bytes4)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_authorizeSetScripts(string[])",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "ownerOf(uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "owned(address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "erc721BalanceOf(address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "erc20BalanceOf(address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "erc20TotalSupply()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "erc721TotalSupply()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "erc721TokensBankedInQueue()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "approve(address,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "setApprovalForAll(address,bool)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "transferFrom(address,address,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "transfer(address,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "safeTransferFrom(address,address,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "safeTransferFrom(address,address,uint256,bytes)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "permit(address,address,uint256,uint256,uint8,bytes32,bytes32)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "DOMAIN_SEPARATOR()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_computeDomainSeparator()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "calculateERC721Transfers(address,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_transferERC20(address,address,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_transferERC721(address,address,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_transferERC20WithERC721(address,address,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_mintERC20(address,uint256,bool)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_retrieveOrMintERC721(address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_withdrawAndStoreERC721(address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_setERC721TransferExempt(address,bool)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_getOwnerOf(uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_setOwnerOf(uint256,address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_getOwnedIndex(uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_setOwnedIndex(uint256,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "name()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "symbol()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "decimals()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "totalSupply()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "balanceOf(address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "erc721TransferExempt(address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "isApprovedForAll(address,address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "allowance(address,address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "onERC721Received(address,address,uint256,bytes)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "scriptURI()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "setScriptURI(string[])",
+            "hash": "6cb927d8"
+        }
+    ]
+}

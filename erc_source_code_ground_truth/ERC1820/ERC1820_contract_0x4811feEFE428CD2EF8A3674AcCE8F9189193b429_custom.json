@@ -1,0 +1,384 @@
+{
+    "custom_functions": [
+        {
+            "function": "totalSupply()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "balanceOf(address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "transfer(address,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "allowance(address,address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "approve(address,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "transferFrom(address,address,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "getDocument(bytes32)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "setDocument(bytes32,string,bytes32)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "removeDocument(bytes32)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "getAllDocuments()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "balanceOfByPartition(bytes32,address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "partitionsOf(address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "transferWithData(address,uint256,bytes)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "transferFromWithData(address,address,uint256,bytes)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "transferByPartition(bytes32,address,uint256,bytes)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "operatorTransferByPartition(bytes32,address,address,uint256,bytes,bytes)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "isControllable()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "authorizeOperator(address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "revokeOperator(address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "authorizeOperatorByPartition(bytes32,address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "revokeOperatorByPartition(bytes32,address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "isOperator(address,address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "isOperatorForPartition(bytes32,address,address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "isIssuable()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "issue(address,uint256,bytes)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "issueByPartition(bytes32,address,uint256,bytes)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "redeem(uint256,bytes)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "redeemFrom(address,uint256,bytes)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "redeemByPartition(bytes32,uint256,bytes)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "operatorRedeemByPartition(bytes32,address,uint256,bytes)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "name()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "symbol()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "decimals()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "granularity()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "totalPartitions()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "totalSupplyByPartition(bytes32)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "renounceControl()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "renounceIssuance()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "controllers()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "controllersByPartition(bytes32)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "setControllers(address[])",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "setPartitionControllers(bytes32,address[])",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "getDefaultPartitions()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "setDefaultPartitions(bytes32[])",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "allowanceByPartition(bytes32,address,address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "approveByPartition(bytes32,address,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "setTokenExtension(address,string,bool,bool,bool)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "migrate(address,bool)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_transferWithData(address,address,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_transferByPartition(bytes32,address,address,address,uint256,bytes,bytes)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_transferByDefaultPartitions(address,address,address,uint256,bytes)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_getDestinationPartition(bytes32,bytes)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_removeTokenFromPartition(address,bytes32,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_addTokenToPartition(address,bytes32,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_isMultiple(uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_callSenderExtension(bytes32,address,address,address,uint256,bytes,bytes)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_callTokenExtension(bytes32,address,address,address,uint256,bytes,bytes)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_callRecipientExtension(bytes32,address,address,address,uint256,bytes,bytes)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_callRedeemExtension(bytes32,address,address,address,uint256,bytes,bytes)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_callMintExtension(bytes32,address,address,address,uint256,bytes,bytes)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_isOperator(address,address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_isOperatorForPartition(bytes32,address,address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_issue(address,address,uint256,bytes)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_issueByPartition(bytes32,address,address,uint256,bytes)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_redeem(address,address,uint256,bytes)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_redeemByPartition(bytes32,address,address,uint256,bytes,bytes)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_redeemByDefaultPartitions(address,address,uint256,bytes)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "canTransfer(bytes,bytes32,address,address,address,uint256,bytes,bytes)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_setControllers(address[])",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_setPartitionControllers(bytes32,address[])",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_setTokenExtension(address,string,bool,bool,bool)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_migrate(address,bool)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "domainName()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "domainVersion()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "canImplementInterfaceForAddress(bytes32,address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_setInterface(string)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "setInterfaceImplementation(string,address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "interfaceAddr(address,string)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "delegateManagement(address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "canValidate(ValidateData)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "tokensToValidate(bytes,bytes32,address,address,address,uint,bytes,bytes)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "canBurn(bytes,bytes32,address,address,address,uint,bytes,bytes)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "canMint(bytes,bytes32,address,address,address,uint,bytes,bytes)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "canTransfer(bytes,bytes32,address,address,address,uint,bytes,bytes)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "tokensToTransfer(bytes,bytes32,address,address,address,uint,bytes,bytes)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "canReceive(bytes,bytes32,address,address,address,uint,bytes,bytes)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "tokensReceived(bytes,bytes32,address,address,address,uint,bytes,bytes)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "setManager(address,address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "getManager(address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "setInterfaceImplementer(address,bytes32,address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "getInterfaceImplementer(address,bytes32)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "interfaceHash(string)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "updateERC165Cache(address,bytes4)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "implementsERC165Interface(address,bytes4)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "implementsERC165InterfaceNoCache(address,bytes4)",
+            "hash": "6cb927d8"
+        }
+    ]
+}

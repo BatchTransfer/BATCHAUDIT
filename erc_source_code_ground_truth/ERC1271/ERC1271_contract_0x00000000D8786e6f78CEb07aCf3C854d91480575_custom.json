@@ -1,0 +1,224 @@
+{
+    "custom_functions": [
+        {
+            "function": "_afterExecute(address,uint256,bytes,uint8)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_afterExecuteBatch(Call[],uint8)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_isBlockedTarget(address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_domainNameAndVersion()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "erc1967Implementation()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_isUpgradeable()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "setERC1271Adapter(address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_erc1271IsValidSignature(bytes32,bytes)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "execute(address,uint256,bytes,uint8)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "executeBatch(Call[],uint8)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_isValidSigner(address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_signerIsTokenContract(address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_authorizeUpgrade(address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "upgradeToAndCall(address,bytes)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_domainNameAndVersionMayChange()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_domainSeparator()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_hashTypedData(bytes32)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "eip712Domain()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_buildDomainSeparator()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_cachedDomainSeparatorInvalidated()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_erc1271Signer()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_erc1271CallerIsSafe()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "isValidSignature(bytes32,bytes)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_erc1271IsValidSignatureViaSafeCaller(bytes32,bytes)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_erc1271IsValidSignatureViaNestedEIP712(bytes32,bytes)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_erc1271IsValidSignatureViaRPC(bytes32,bytes)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "token()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "owner()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "isValidSigner(address,bytes)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "state()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_updateState()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "supportsInterface(bytes4)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "initCode(address,bytes32,uint256,address,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "initCodeHash(address,bytes32,uint256,address,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "createAccount(address,bytes32,uint256,address,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "account(address,bytes32,uint256,address,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "isERC6551Account(address,address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "implementation(address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "context(address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "salt(address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "chainId(address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "tokenContract(address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "tokenId(address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "proxiableUUID()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "isValidSignatureNow(address,bytes32,bytes)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "isValidSignatureNowCalldata(address,bytes32,bytes)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "isValidSignatureNow(address,bytes32,bytes32,bytes32)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "isValidSignatureNow(address,bytes32,uint8,bytes32,bytes32)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "isValidERC1271SignatureNow(address,bytes32,bytes)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "isValidERC1271SignatureNowCalldata(address,bytes32,bytes)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "isValidERC1271SignatureNow(address,bytes32,bytes32,bytes32)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "isValidERC1271SignatureNow(address,bytes32,uint8,bytes32,bytes32)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "toEthSignedMessageHash(bytes32)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "toEthSignedMessageHash(bytes)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "emptySignature()",
+            "hash": "6cb927d8"
+        }
+    ]
+}

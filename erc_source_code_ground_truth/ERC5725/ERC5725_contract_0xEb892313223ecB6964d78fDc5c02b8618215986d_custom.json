@@ -1,0 +1,460 @@
+{
+    "custom_functions": [
+        {
+            "function": "refillPayoutToken(uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "__AccessControlEnumerable_init()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "__AccessControlEnumerable_init_unchained()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "supportsInterface(bytes4)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "getRoleMember(bytes32,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "getRoleMemberCount(bytes32)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_grantRole(bytes32,address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_revokeRole(bytes32,address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "name()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "symbol()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "decimals()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "permit(address,address,uint256,uint256,uint8,bytes32,bytes32)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "nonces(address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "DOMAIN_SEPARATOR()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "totalSupply()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "balanceOf(address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "transfer(address,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "allowance(address,address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "approve(address,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "transferFrom(address,address,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "safeTransfer(IERC20Upgradeable,address,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "safeTransferFrom(IERC20Upgradeable,address,address,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "safeApprove(IERC20Upgradeable,address,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "safeIncreaseAllowance(IERC20Upgradeable,address,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "safeDecreaseAllowance(IERC20Upgradeable,address,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "forceApprove(IERC20Upgradeable,address,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "safePermit(IERC20PermitUpgradeable,address,address,uint256,uint256,uint8,bytes32,bytes32)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_callOptionalReturn(IERC20Upgradeable,bytes)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_callOptionalReturnBool(IERC20Upgradeable,bytes)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "tokenOfOwnerByIndex(address,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "tokenByIndex(uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "ownerOf(uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "safeTransferFrom(address,address,uint256,bytes)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "safeTransferFrom(address,address,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "setApprovalForAll(address,bool)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "getApproved(uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "isApprovedForAll(address,address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "__Context_init()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "__Context_init_unchained()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_msgSender()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_msgData()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_contextSuffixLength()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "__ERC165_init()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "__ERC165_init_unchained()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "initialize(IBondTreasury,BondCreationDetails,BondTerms,BondAccounts,address[])",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "setBondTerms(PARAMETER,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "getMaxTotalPayout()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "setMaxTotalPayout(uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "setFeeTiers(uint256[],uint256[])",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "setMinPrice(uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "setBCV(uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "changeBCVUpdateInterval(uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "changeFeeTo(address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "pause()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "unpause()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "transferStuckToken(address,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "deposit(uint256,uint256,address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "claim(uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "batchClaim(uint256[])",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_claim(uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "setClaimApproval(address,bool)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "redeem(uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "batchRedeem(uint256[])",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_decayDebt()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_setFeeTiers(uint256[],uint256[])",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "getBillInfo(uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "billPrice()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "trueBillPrice()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "maxPayout()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "payoutFor(uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "debtRatio()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "currentDebt()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "debtDecay()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "pendingVesting(uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "pendingPayout(uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "vestingPeriod(uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "vestingPayout(uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "vestedPayoutAtTime(uint256,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "claimablePayout(uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_payoutsCurrent(uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_payoutsAtTime(uint256,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_billTimestamps(uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "userBillIds()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "getBillIds(address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "getBillIdsInRange(address,uint256,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "currentFee()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "getFeeTierLength()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "allIssuedBillIds()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "__ApeBondAccessControlUpgradeable__init(address,address,address[])",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "grantOperationsRole(address[])",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_grantOperationsRole(address[])",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "revokeOperationsRole(address[])",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "grantDiscountManagerRole(address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "revokeDiscountManagerRole(address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "grantRole(bytes32,address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "customTreasury()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "payoutToken()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "principalToken()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "addMinter(address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "mint(address,address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "mintMany(uint256,address,address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "lockURI()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "setTokenURI(uint256,string)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "claimMany(uint256[])",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "allTokensDataOfOwner(address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "getTokensOfOwnerByIndexes(address,uint256,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "tokenDataOfOwnerByIndex(address,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "claimedPayout(uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "vestedPayout(uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "payoutToken(uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "setClaimApprovalForAll(address,bool)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "setClaimApproval(address,bool,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "isClaimApprovedForAll(address,address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "getClaimApproved(uint256)",
+            "hash": "6cb927d8"
+        }
+    ]
+}

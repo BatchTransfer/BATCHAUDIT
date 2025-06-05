@@ -1,0 +1,228 @@
+{
+    "custom_functions": [
+        {
+            "function": "mint(address,uint256)",
+            "hash": "40c10f19"
+        },
+        {
+            "function": "recoverERC20(address,address,uint256)",
+            "hash": "1171bda9"
+        },
+        {
+            "function": "_mint(address,uint256)",
+            "hash": "4e6ec247"
+        },
+        {
+            "function": "burn(uint256)",
+            "hash": "42966c68"
+        },
+        {
+            "function": "burnFrom(address,uint256)",
+            "hash": "79cc6790"
+        },
+        {
+            "function": "cap()",
+            "hash": "355274ea"
+        },
+        {
+            "function": "_checkAndCallTransfer(address,address,uint256,bytes)",
+            "hash": "91d80948"
+        },
+        {
+            "function": "_checkAndCallApprove(address,uint256,bytes)",
+            "hash": "bf65dd32"
+        },
+        {
+            "function": "transferAdmin(address)",
+            "hash": "75829def"
+        },
+        {
+            "function": "_recoverERC20(address,address,uint256)",
+            "hash": "2360f437"
+        },
+        {
+            "function": "name()",
+            "hash": "06fdde03"
+        },
+        {
+            "function": "symbol()",
+            "hash": "95d89b41"
+        },
+        {
+            "function": "decimals()",
+            "hash": "313ce567"
+        },
+        {
+            "function": "increaseAllowance(address,uint256)",
+            "hash": "39509351"
+        },
+        {
+            "function": "decreaseAllowance(address,uint256)",
+            "hash": "a457c2d7"
+        },
+        {
+            "function": "_transfer(address,address,uint256)",
+            "hash": "30e0789e"
+        },
+        {
+            "function": "_burn(address,uint256)",
+            "hash": "6161eb18"
+        },
+        {
+            "function": "_approve(address,address,uint256)",
+            "hash": "104e81ff"
+        },
+        {
+            "function": "_spendAllowance(address,address,uint256)",
+            "hash": "1532335e"
+        },
+        {
+            "function": "_beforeTokenTransfer(address,address,uint256)",
+            "hash": "cad3be83"
+        },
+        {
+            "function": "_afterTokenTransfer(address,address,uint256)",
+            "hash": "8f811a1c"
+        },
+        {
+            "function": "_msgSender()",
+            "hash": "119df25f"
+        },
+        {
+            "function": "_msgData()",
+            "hash": "8b49d47e"
+        },
+        {
+            "function": "isContract(address)",
+            "hash": "16279055"
+        },
+        {
+            "function": "sendValue(address,uint256)",
+            "hash": "24a084df"
+        },
+        {
+            "function": "functionCall(address,bytes)",
+            "hash": "a0b5ffb0"
+        },
+        {
+            "function": "functionCall(address,bytes,string)",
+            "hash": "241b5886"
+        },
+        {
+            "function": "functionCallWithValue(address,bytes,uint256)",
+            "hash": "2a011594"
+        },
+        {
+            "function": "functionCallWithValue(address,bytes,uint256,string)",
+            "hash": "d525ab8a"
+        },
+        {
+            "function": "functionStaticCall(address,bytes)",
+            "hash": "c21d36f3"
+        },
+        {
+            "function": "functionStaticCall(address,bytes,string)",
+            "hash": "dbc40fb9"
+        },
+        {
+            "function": "functionDelegateCall(address,bytes)",
+            "hash": "ee33b7e2"
+        },
+        {
+            "function": "functionDelegateCall(address,bytes,string)",
+            "hash": "57387df0"
+        },
+        {
+            "function": "verifyCallResult(bool,bytes,string)",
+            "hash": "946b5793"
+        },
+        {
+            "function": "onTransferReceived(address,address,uint256,bytes)",
+            "hash": "88a7ca5c"
+        },
+        {
+            "function": "onApprovalReceived(address,uint256,bytes)",
+            "hash": "7b04a2d0"
+        },
+        {
+            "function": "hasRole(bytes32,address)",
+            "hash": "91d14854"
+        },
+        {
+            "function": "_checkRole(bytes32)",
+            "hash": "6bb50616"
+        },
+        {
+            "function": "_checkRole(bytes32,address)",
+            "hash": "5b7b2c38"
+        },
+        {
+            "function": "getRoleAdmin(bytes32)",
+            "hash": "248a9ca3"
+        },
+        {
+            "function": "grantRole(bytes32,address)",
+            "hash": "2f2ff15d"
+        },
+        {
+            "function": "revokeRole(bytes32,address)",
+            "hash": "d547741f"
+        },
+        {
+            "function": "renounceRole(bytes32,address)",
+            "hash": "36568abe"
+        },
+        {
+            "function": "_setupRole(bytes32,address)",
+            "hash": "4fa943a6"
+        },
+        {
+            "function": "_setRoleAdmin(bytes32,bytes32)",
+            "hash": "7612997d"
+        },
+        {
+            "function": "_grantRole(bytes32,address)",
+            "hash": "ce2cc1d0"
+        },
+        {
+            "function": "_revokeRole(bytes32,address)",
+            "hash": "2c95bd23"
+        },
+        {
+            "function": "toString(uint256)",
+            "hash": "6900a3ae"
+        },
+        {
+            "function": "toHexString(uint256)",
+            "hash": "8fba8d5c"
+        },
+        {
+            "function": "toHexString(uint256,uint256)",
+            "hash": "63e1cbea"
+        },
+        {
+            "function": "safeTransfer(IERC20,address,uint256)",
+            "hash": "d0c407e1"
+        },
+        {
+            "function": "safeTransferFrom(IERC20,address,address,uint256)",
+            "hash": "5beae096"
+        },
+        {
+            "function": "safeApprove(IERC20,address,uint256)",
+            "hash": "d6dcec8d"
+        },
+        {
+            "function": "safeIncreaseAllowance(IERC20,address,uint256)",
+            "hash": "390cc046"
+        },
+        {
+            "function": "safeDecreaseAllowance(IERC20,address,uint256)",
+            "hash": "5164ffed"
+        },
+        {
+            "function": "_callOptionalReturn(IERC20,bytes)",
+            "hash": "becc5a20"
+        }
+    ]
+}

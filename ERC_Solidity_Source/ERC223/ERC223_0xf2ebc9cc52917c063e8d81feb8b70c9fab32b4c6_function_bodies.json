@@ -1,0 +1,7 @@
+{
+    "renounceOwnership()": "function renounceOwnership() public onlyOwner {\n    emit OwnershipRenounced(owner);\n    owner = address(0);\n  }",
+    "transferOwnership(address)": "function transferOwnership(address _newOwner) public onlyOwner {\n    _transferOwnership(_newOwner);\n  }",
+    "finishMinting()": "function finishMinting() onlyOwner canMint public returns (bool) {\n    mintingFinished = true;\n    emit MintFinished();\n    return true;\n  }",
+    "pause()": "function pause() onlyOwner whenNotPaused public {\n    paused = true;\n    emit Pause();\n  }",
+    "unpause()": "function unpause() onlyOwner whenPaused public {\n    paused = false;\n    emit Unpause();\n  }"
+}

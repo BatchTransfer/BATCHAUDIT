@@ -1,0 +1,544 @@
+{
+    "custom_functions": [
+        {
+            "function": "_implementation()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_fallback()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_upgradeToAndCall(address,bytes)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "transfer(address,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "transferFrom(address,address,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "transferWithAuthorization(address,address,uint256,uint256,uint256,bytes32,uint8,bytes32,bytes32)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "transferWithAuthorization(address,address,uint256,uint256,uint256,bytes32,bytes)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "receiveWithAuthorization(address,address,uint256,uint256,uint256,bytes32,uint8,bytes32,bytes32)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "receiveWithAuthorization(address,address,uint256,uint256,uint256,bytes32,bytes)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "TRANSFER_WITH_AUTHORIZATION_TYPEHASH()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "RECEIVE_WITH_AUTHORIZATION_TYPEHASH()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "CANCEL_AUTHORIZATION_TYPEHASH()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "authorizationState(address,bytes32)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "hashTypedDataV4(bytes32)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "domainSeparatorV4()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "ERC2612_STORAGE_SLOT()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "nonces(address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "name()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "symbol()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "balanceOf(address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "allowance(address,address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "totalSupply()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "isAccountFrozen(address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "accountData(address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "ERC20_CORE_STORAGE_SLOT()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "getRoleData(bytes32)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "adminAddress()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "pendingAdminAddress()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "minterAddress()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "pendingMinterAddress()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "burnerAddress()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "pendingBurnerAddress()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "pauserAddress()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "pendingPauserAddress()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "freezerAddress()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "pendingFreezerAddress()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "eip712Domain()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "proxyAdminAddress()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "isMsgSenderFrozenCheckEnabled()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "isTransferPaused()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "isSignatureVerificationPaused()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "isMintPaused()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "isFreezingPaused()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "isTransferUpgraded()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "isTransferFromUpgraded()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "isTransferWithAuthorizationUpgraded()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "implementation()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "IS_MSG_SENDER_FROZEN_CHECK_ENABLED_BIT_POSITION()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "IS_MINT_PAUSED_BIT_POSITION()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "IS_FREEZING_PAUSED_BIT_POSITION()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "IS_TRANSFER_PAUSED_BIT_POSITION()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "IS_TRANSFER_UPGRADED_BIT_POSITION()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "IS_TRANSFER_FROM_UPGRADED_BIT_POSITION()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "IS_TRANSFER_WITH_AUTHORIZATION_UPGRADED_BIT_POSITION()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "IS_RECEIVE_WITH_AUTHORIZATION_UPGRADED_BIT_POSITION()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "initialize(InitializeParams)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "approve(address,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "cancelAuthorization(address,bytes32,uint8,bytes32,bytes32)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "cancelAuthorization(address,bytes32,bytes)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "setIsMsgSenderCheckEnabled(bool)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "setIsMintPaused(bool)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "setIsFreezingPaused(bool)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "setIsTransferPaused(bool)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "setIsSignatureVerificationPaused(bool)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "setIsTransferUpgraded(bool)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "setIsTransferFromUpgraded(bool)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "setIsTransferWithAuthorizationUpgraded(bool)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "setIsReceiveWithAuthorizationUpgraded(bool)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_transferWithAuthorization(address,address,uint256,uint256,uint256,bytes32,bytes)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_receiveWithAuthorization(address,address,uint256,uint256,uint256,bytes32,bytes)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_cancelAuthorization(address,bytes32,bytes)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_requireIsValidSignatureNow(address,bytes32,bytes)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_requireUnusedAuthorization(address,bytes32)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_markAuthorizationAsUsed(address,bytes32)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "transferOwnership(address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_transferOwnership(address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "deriveErc7201StorageSlot(string)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "getPointerToEip3009Storage()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "getPointerToErc2612Storage()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "getPointerToErc20CoreStorage()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "getPointerToAgoraDollarAccessControlStorage()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "getPointerToAgoraDollarErc1967ProxyAdminStorage()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "getPointerToAgoraDollarErc1967ProxyContractStorage()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "sloadImplementationSlotDataAsUint256()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "sstoreImplementationSlotDataAsUint256(uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "isMsgSenderFrozenCheckEnabled(uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "isMintPaused(uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "isFreezingPaused(uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "isTransferPaused(uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "isSignatureVerificationPaused(uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "isTransferUpgraded(uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "isTransferFromUpgraded(uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "isTransferWithAuthorizationUpgraded(uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "isReceiveWithAuthorizationUpgraded(uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "implementation(uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "setBitWithMask(uint256,uint256,bool)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_domainSeparatorV4()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_buildDomainSeparator()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_hashTypedDataV4(bytes32)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_Eip712Name()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_Eip712Version()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "batchMint(BatchMintParam[])",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "batchBurnFrom(BatchBurnFromParam[])",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "freeze(address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "unfreeze(address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "permit(address,address,uint256,uint256,uint8,bytes32,bytes32)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "permit(address,address,uint256,uint256,bytes)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "DOMAIN_SEPARATOR()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_approve(address,address,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_transfer(address,address,uint248)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_spendAllowance(address,address,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_initializeAgoraDollarAccessControl(address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "transferRole(bytes32,address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "acceptTransferRole(bytes32)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_setPendingRoleAddress(bytes32,address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_acceptTransferRole(bytes32)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_setCurrentRoleAddress(bytes32,address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_isRole(bytes32,address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_requireIsRole(bytes32,address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_requireSenderIsRole(bytes32)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_isPendingRole(bytes32,address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_requireIsPendingRole(bytes32,address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_requireSenderIsPendingRole(bytes32)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "upgradeToAndCall(address,bytes)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_proxyAdmin()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_dispatchUpgradeToAndCall()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "getImplementation()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_setImplementation(address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "getAdmin()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_setAdmin(address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "changeAdmin(address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "getBeacon()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_setBeacon(address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "upgradeBeaconToAndCall(address,bytes)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_checkNonPayable()",
+            "hash": "6cb927d8"
+        }
+    ]
+}

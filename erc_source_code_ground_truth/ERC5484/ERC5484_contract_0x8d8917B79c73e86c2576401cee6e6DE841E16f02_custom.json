@@ -1,0 +1,216 @@
+{
+    "custom_functions": [
+        {
+            "function": "_msgSender()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_msgData()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "owner()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_checkOwner()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "renounceOwnership()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "transferOwnership(address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_transferOwnership(address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "supportsInterface(bytes4)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "balanceOf(address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "ownerOf(uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "safeTransferFrom(address,address,uint256,bytes)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "safeTransferFrom(address,address,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "transferFrom(address,address,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "approve(address,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "setApprovalForAll(address,bool)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "getApproved(uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "isApprovedForAll(address,address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "max(uint256,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "min(uint256,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "average(uint256,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "ceilDiv(uint256,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "mulDiv(uint256,uint256,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "mulDiv(uint256,uint256,uint256,Rounding)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "sqrt(uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "sqrt(uint256,Rounding)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "log2(uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "log2(uint256,Rounding)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "log10(uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "log10(uint256,Rounding)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "log256(uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "log256(uint256,Rounding)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "toString(uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "toHexString(uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "toHexString(uint256,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "toHexString(address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "features()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "updateFeatures(uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "updateRole(address,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "evaluateBy(address,uint256,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "isFeatureEnabled(uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "isSenderInRole(uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "isOperatorInRole(address,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "__hasRole(uint256,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "collectionUri()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "badgeUri(uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "metadataFormat()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "burnAuth(uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "getReverseBindingCount(uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "getReverseBindings(uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "setCollectionUri(string)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "setMetadatFormat(string)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "mint(uint256,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "burn(uint256)",
+            "hash": "6cb927d8"
+        }
+    ]
+}

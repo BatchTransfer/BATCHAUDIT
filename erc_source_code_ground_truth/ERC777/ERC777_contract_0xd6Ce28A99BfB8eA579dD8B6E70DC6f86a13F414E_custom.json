@@ -1,0 +1,268 @@
+{
+    "custom_functions": [
+        {
+            "function": "destroy()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "batchBalanceOf(address[])",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "operatorBatchTransfer(address,address[],uint256[],bytes,bytes)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "operatorBatchMint(address[],uint256[],bytes,bytes)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "operatorBatchBurn(address[],uint256[],bytes,bytes)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "operatorMint(address,uint256,bytes,bytes)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "circulatingSupply()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "operatorTransferAnyERC20Token(address,address,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "transferPreSigned(address,uint256,uint256,uint256,bytes)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "transferPreSignedPayloadHash(address,address,uint256,uint256,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "setManager(address,address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "getManager(address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "setInterfaceImplementer(address,bytes32,address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "getInterfaceImplementer(address,bytes32)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "interfaceHash(string)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "updateERC165Cache(address,bytes4)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "implementsERC165Interface(address,bytes4)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "implementsERC165InterfaceNoCache(address,bytes4)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "tokensToSend(address,address,address,uint256,bytes,bytes)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "tokensReceived(address,address,address,uint256,bytes,bytes)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "name()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "symbol()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "granularity()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "totalSupply()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "balanceOf(address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "send(address,uint256,bytes)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "burn(uint256,bytes)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "isOperatorFor(address,address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "authorizeOperator(address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "revokeOperator(address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "defaultOperators()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "operatorSend(address,address,uint256,bytes,bytes)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "operatorBurn(address,uint256,bytes,bytes)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "decimals()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "transfer(address,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "allowance(address,address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "approve(address,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "transferFrom(address,address,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_mint(address,uint256,bytes,bytes)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_mint(address,uint256,bytes,bytes,bool)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_send(address,address,uint256,bytes,bytes,bool)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_burn(address,uint256,bytes,bytes)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_move(address,address,address,uint256,bytes,bytes)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_approve(address,address,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_callTokensToSend(address,address,address,uint256,bytes,bytes)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_callTokensReceived(address,address,address,uint256,bytes,bytes,bool)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_spendAllowance(address,address,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_beforeTokenTransfer(address,address,address,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_beforeTokenTransfer(address,address,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "maxFlashLoan(address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "flashFee(address,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "flashLoan(IERC3156FlashBorrower,address,uint256,bytes)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "cap()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_mint(address,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "burn(uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "burnFrom(address,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "increaseAllowance(address,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "decreaseAllowance(address,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_transfer(address,address,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_burn(address,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_afterTokenTransfer(address,address,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "paused()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_pause()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_unpause()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "onFlashLoan(address,address,uint256,uint256,bytes)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "supportsInterface(bytes4)",
+            "hash": "6cb927d8"
+        }
+    ]
+}

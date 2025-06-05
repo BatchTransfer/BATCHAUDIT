@@ -1,0 +1,8 @@
+{
+    "custom_functions": [
+        {
+            "function": "supportsInterface(bytes4)",
+            "hash": "6cb927d8"
+        }
+    ]
+}

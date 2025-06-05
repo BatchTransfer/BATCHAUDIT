@@ -1,0 +1,192 @@
+{
+    "custom_functions": [
+        {
+            "function": "_msgSender()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "totalSupply()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "balanceOf(address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "transfer(address,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "allowance(address,address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "approve(address,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "transferFrom(address,address,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "owner()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "renounceOwnership()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "transferOwnership(address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "add(uint256,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "sub(uint256,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "sub(uint256,uint256,string)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "mul(uint256,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "div(uint256,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "div(uint256,uint256,string)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "createPair(address,address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "swapExactTokensForETHSupportingFeeOnTransferTokens(uint256,uint256,address[],address,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "factory()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "WETH()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "addLiquidityETH(address,uint256,uint256,uint256,address,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "name()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "symbol()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "decimals()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "tokenFromReflection(uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "removeAllFee()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "restoreAllFee()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_approve(address,address,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_transfer(address,address,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "swapTokensForEth(uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "sendETHERToFee(uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "manualsend()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "manualSwap(uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "toggleSwap (bool)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_tokenTransfer(address,address,uint256,bool)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_transferStandard(address,address,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_takeTeam(uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_reflectFee(uint256,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_getValues(uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "ClearstuckEth(uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_getTValues(uint256,uint256,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_getRValues(uint256,uint256,uint256,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_getRate()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_getCurrentSupply()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "setFee(uint256,uint256,uint256,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "setMaxTxnAmount(uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "setMaxWalletSize(uint256)",
+            "hash": "6cb927d8"
+        }
+    ]
+}

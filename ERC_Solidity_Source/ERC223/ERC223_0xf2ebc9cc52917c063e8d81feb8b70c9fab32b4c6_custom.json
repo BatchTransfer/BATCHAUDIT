@@ -1,0 +1,140 @@
+{
+    "custom_functions": [
+        {
+            "function": "mul(uint256,uint256)",
+            "hash": "c8a4ac9c"
+        },
+        {
+            "function": "div(uint256,uint256)",
+            "hash": "a391c15b"
+        },
+        {
+            "function": "sub(uint256,uint256)",
+            "hash": "b67d77c5"
+        },
+        {
+            "function": "add(uint256,uint256)",
+            "hash": "771602f7"
+        },
+        {
+            "function": "allowance(address,address)",
+            "hash": "dd62ed3e"
+        },
+        {
+            "function": "transferFrom(address,address,uint256)",
+            "hash": "23b872dd"
+        },
+        {
+            "function": "approve(address,uint256)",
+            "hash": "095ea7b3"
+        },
+        {
+            "function": "increaseApproval(address,uint256)",
+            "hash": "d73dd623"
+        },
+        {
+            "function": "decreaseApproval(address,uint256)",
+            "hash": "66188463"
+        },
+        {
+            "function": "renounceOwnership()",
+            "hash": "715018a6"
+        },
+        {
+            "function": "transferOwnership(address)",
+            "hash": "f2fde38b"
+        },
+        {
+            "function": "_transferOwnership(address)",
+            "hash": "d29d44ee"
+        },
+        {
+            "function": "isContract(address)",
+            "hash": "16279055"
+        },
+        {
+            "function": "tokenFallback(address,uint256,bytes)",
+            "hash": "c0ee0b8a"
+        },
+        {
+            "function": "mint(address,uint256)",
+            "hash": "40c10f19"
+        },
+        {
+            "function": "finishMinting()",
+            "hash": "7d64bcb4"
+        },
+        {
+            "function": "actualBalanceOf(address)",
+            "hash": "17a950ac"
+        },
+        {
+            "function": "freezingBalanceOf(address)",
+            "hash": "d8aeedf5"
+        },
+        {
+            "function": "freezingCount(address)",
+            "hash": "ca63b5b8"
+        },
+        {
+            "function": "getFreezing(address,uint256)",
+            "hash": "02d6f730"
+        },
+        {
+            "function": "freezeTo(address,uint256,uint64)",
+            "hash": "3be1e952"
+        },
+        {
+            "function": "releaseOnce()",
+            "hash": "66a92cda"
+        },
+        {
+            "function": "releaseAll()",
+            "hash": "5be7fde8"
+        },
+        {
+            "function": "toKey(address,uint256)",
+            "hash": "11728ecf"
+        },
+        {
+            "function": "freeze(address,uint64)",
+            "hash": "acb88986"
+        },
+        {
+            "function": "burn(uint256)",
+            "hash": "42966c68"
+        },
+        {
+            "function": "_burn(address,uint256)",
+            "hash": "6161eb18"
+        },
+        {
+            "function": "pause()",
+            "hash": "8456cb59"
+        },
+        {
+            "function": "unpause()",
+            "hash": "3f4ba83a"
+        },
+        {
+            "function": "mintAndFreeze(address,uint256,uint64)",
+            "hash": "0bb2cd6b"
+        },
+        {
+            "function": "name()",
+            "hash": "06fdde03"
+        },
+        {
+            "function": "symbol()",
+            "hash": "95d89b41"
+        },
+        {
+            "function": "decimals()",
+            "hash": "313ce567"
+        },
+        {
+            "function": "init()",
+            "hash": "e1c7392a"
+        }
+    ]
+}

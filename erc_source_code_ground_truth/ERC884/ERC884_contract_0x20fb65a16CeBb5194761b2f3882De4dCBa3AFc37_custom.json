@@ -1,0 +1,132 @@
+{
+    "custom_functions": [
+        {
+            "function": "enableLockingPeriod(bool)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "setLockingPeriod(uint)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "mint(address,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "holderCount()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "holderAt(uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "addVerified(address,bytes32)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "removeVerified(address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "updateVerified(address,bytes32)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "cancelAndReissue(address,address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "transfer(address,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "transferFrom(address,address,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "isVerified(address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "isHolder(address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "hasHash(address,bytes32)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "isSuperseded(address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "getCurrentFor(address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "findCurrentFor(address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "updateShareholders(address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "pruneShareholders(address,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "setAllowanceSheet(address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "transferFromAllArgs(address,address,uint256,address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "approve(address,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "approveAllArgs(address,uint256,address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "allowance(address,address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "increaseApproval(address,uint)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "increaseApprovalAllArgs(address,uint256,address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "decreaseApproval(address,uint)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "decreaseApprovalAllArgs(address,uint256,address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "setBalanceSheet(address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "totalSupply()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "transferAllArgs(address,address,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "balanceOf(address)",
+            "hash": "6cb927d8"
+        }
+    ]
+}

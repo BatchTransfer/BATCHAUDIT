@@ -1,0 +1,208 @@
+{
+    "custom_functions": [
+        {
+            "function": "supportsInterface(bytes4)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "transferAndCall(address,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "transferAndCall(address,uint256,bytes)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "transferFromAndCall(address,address,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "transferFromAndCall(address,address,uint256,bytes)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "approveAndCall(address,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "approveAndCall(address,uint256,bytes)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_notifyTransferred(address,address,uint256,bytes,bool)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_notifyApproved(address,uint256,bytes)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "balanceOf(address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "transfer(address,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "transferFrom(address,address,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "safeTransferFrom(address,address,uint256,bytes)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "unsafeTransferFrom(address,address,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "__transferFrom(address,address,address,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "approve(address,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "__approve(address,address,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "allowance(address,address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "increaseAllowance(address,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "decreaseAllowance(address,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "mint(address,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "burn(address,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "permit(address,address,uint256,uint256,uint8,bytes32,bytes32)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "authorizationState(address,bytes32)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "transferWithAuthorization(address,address,uint256,uint256,uint256,bytes32,uint8,bytes32,bytes32)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "receiveWithAuthorization(address,address,uint256,uint256,uint256,bytes32,uint8,bytes32,bytes32)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "cancelAuthorization(address,bytes32,uint8,bytes32,bytes32)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "__deriveSigner(bytes,uint8,bytes32,bytes32)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "__useNonce(address,bytes32,bool)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "votingPowerOf(address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "votingPowerAt(address,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "votingPowerHistoryOf(address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "votingPowerHistoryLength(address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "totalSupplyAt(uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "entireSupplyHistory()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "totalSupplyHistoryLength()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "delegate(address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "__delegate(address,address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "delegateWithAuthorization(address,bytes32,uint256,uint8,bytes32,bytes32)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "__moveVotingPower(address,address,address,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "__updateHistory(KV[],function)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "function(uint256,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "__binaryLookup(KV[],uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "add(uint256,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "sub(uint256,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "onTransferReceived(address,address,uint256,bytes)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "onApprovalReceived(address,uint256,bytes)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "DOMAIN_SEPARATOR()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "nonces(address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "permit(address,address,uint,uint,uint8,bytes32,bytes32)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "totalSupply()",
+            "hash": "6cb927d8"
+        }
+    ]
+}

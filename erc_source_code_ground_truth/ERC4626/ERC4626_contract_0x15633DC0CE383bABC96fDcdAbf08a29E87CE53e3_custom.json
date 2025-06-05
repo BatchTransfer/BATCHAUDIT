@@ -1,0 +1,384 @@
+{
+    "custom_functions": [
+        {
+            "function": "serializedDeposits(address[],uint256,address,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "serializedRedeems(address[],bool[],uint256,address,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "redeemVaultV2(IYearnVaultV2,uint256,address,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "redeemFromRouter(IERC4626,uint256,address,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "withdrawFromRouter(IERC4626,uint256,address,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "redeemStakeDaoGauge(IStakeDaoGauge,uint256,address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "pullTokenWithPermit2(ISignatureTransfer.PermitTransferFrom,ISignatureTransfer.SignatureTransferDetails,bytes)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "previewDeposits(address[],uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "previewMints(address[],uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "previewWithdraws(address[],uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "previewRedeems(address[],uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "name()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "depositToVault(IYearn4626,uint256,address,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "depositToVault(IYearn4626,uint256,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "depositToVault(IYearn4626,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "depositToVault(IYearn4626)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "redeem(IYearn4626,uint256,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "redeem(IYearn4626,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "redeem(IYearn4626)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "migrate(IYearn4626,IYearn4626,uint256,address,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "migrate(IYearn4626,IYearn4626,uint256,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "migrate(IYearn4626,IYearn4626,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "migrate(IYearn4626,IYearn4626)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "migrateFromV2(IYearnV2,IYearn4626,uint256,address,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "migrateFromV2(IYearnV2,IYearn4626,uint256,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "migrateFromV2(IYearnV2,IYearn4626,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "migrateFromV2(IYearnV2,IYearn4626)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "token()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "deposit(uint256,address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "deposit(uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "withdraw(uint256,address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "pricePerShare()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "totalSupply()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "totalAssets()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "lastReport()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "lockedProfitDegradation()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "lockedProfit()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "safeTransfer(IERC20,address,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "safeTransferFrom(IERC20,address,address,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "safeApprove(IERC20,address,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "safeIncreaseAllowance(IERC20,address,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "safeDecreaseAllowance(IERC20,address,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "forceApprove(IERC20,address,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "safePermit(IERC20Permit,address,address,uint256,uint256,uint8,bytes32,bytes32)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_callOptionalReturn(IERC20,bytes)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_callOptionalReturnBool(IERC20,bytes)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "asset()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "convertToShares(uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "convertToAssets(uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "maxDeposit(address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "previewDeposit(uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "maxMint(address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "previewMint(uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "mint(uint256,address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "maxWithdraw(address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "previewWithdraw(uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "withdraw(uint256,address,address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "maxRedeem(address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "previewRedeem(uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "redeem(uint256,address,address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "mint(IYearn4626,uint256,address,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "deposit(IYearn4626,uint256,address,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "withdraw(IYearn4626,uint256,address,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "withdrawDefault(IYearn4626,uint256,address,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "redeem(IYearn4626,uint256,address,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "redeemDefault(IYearn4626,uint256,address,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "safeTransferETH(address,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "safeTransferFrom(ERC20,address,address,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "safeTransfer(ERC20,address,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "safeApprove(ERC20,address,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "balanceOf(address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "transfer(address,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "allowance(address,address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "approve(address,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "transferFrom(address,address,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "permit(address,address,uint256,uint256,uint8,bytes32,bytes32)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "nonces(address)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "DOMAIN_SEPARATOR()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "symbol()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "decimals()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "computeDomainSeparator()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_mint(address,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "_burn(address,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "selfPermit(address,uint256,uint256,uint8,bytes32,bytes32)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "selfPermitIfNecessary(address,uint256,uint256,uint8,bytes32,bytes32)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "selfPermitAllowed(address,uint256,uint256,uint8,bytes32,bytes32)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "selfPermitAllowedIfNecessary(address,uint256,uint256,uint8,bytes32,bytes32)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "withdraw(uint256,address,address,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "withdraw(uint256,address,address,uint256,address[])",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "redeem(uint256,address,address,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "redeem(uint256,address,address,uint256,address[])",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "withdraw()",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "withdraw(uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "withdraw(uint256,address,uint256)",
+            "hash": "6cb927d8"
+        },
+        {
+            "function": "permit(address,address,uint256,uint256,bool,uint8,bytes32,bytes32)",
+            "hash": "6cb927d8"
+        }
+    ]
+}
