@@ -1,5 +1,6 @@
 // File: contracts/NFTPASTEL1155.sol
 // SPDX-License-Identifier: UNLICENSED
+
 pragma solidity 0.8.14;
 
 import "@openzeppelin/contracts/token/ERC1155/extensions/ERC1155Burnable.sol";
