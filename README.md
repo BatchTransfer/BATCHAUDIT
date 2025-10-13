@@ -1,6 +1,6 @@
 # BatchAudit:  Batch Transfer Checker
 
-This repository contains a Python script, `batchTransfer_check.py`, which analyzes a directory of ERC-1155 contracts and outputs a JSON report of safeBatchTransfer-related security checks.
+This repository contains a Python script, `batchTransfer_check.py` and 'tx_analysis.py', which analyzes a directory of ERC-1155 contracts and outputs a JSON report of safeBatchTransfer-related security checks.
 
 ## Prerequisites
 
