@@ -1,18 +1,6 @@
 #!/usr/bin/env python3
 # erc1155_batch_transfer_analysis.py
 
-"""
-End‑to‑end pipeline to extract ERC‑1155 batch transfer calls, save them, and
-analyse them for common vulnerabilities.
-
-Usage example:
-    python erc1155_batch_transfer_analysis.py \
-        --json /path/to/erc1155_SafeBatch.json \
-        --num-addresses 50 \
-        --raw-csv raw_transactions.csv \
-        --annotated-csv analysed_transactions.csv
-"""
-
 import os
 import re
 import json
