@@ -8,7 +8,7 @@ This repository contains a Python script, `batchTransfer_check.py`, which analyz
 - Git (to clone the repository)  
 - (Optional) A virtual environment tool, such as `venv` or `conda`
 
-## Installation
+## Installation 
 
 1. **Clone the repository**
 
