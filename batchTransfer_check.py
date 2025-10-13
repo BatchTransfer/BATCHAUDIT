@@ -6,6 +6,7 @@ from eth_utils import keccak
 import pandas as pd
 import matplotlib.pyplot as plt
 
+
 def find_functions_by_signature(functions: List[Dict], target_signature: str) -> List[Dict]:
     """Find all functions matching the normalized signature with parameter types."""
     print(f"target_signature:{target_signature}")
