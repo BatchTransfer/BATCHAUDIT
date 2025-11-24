@@ -36,20 +36,6 @@ The `safeBatchTransferFrom` function enables atomic transfer of multiple token t
 | **Event Emission** | `TransferBatch(msg.sender, from, to, ids, amounts)` | Maintains accurate off-chain indexing |
 | **Receiver Hooks** | `onERC1155BatchReceived` callback with magic value return | Prevents token locking in non-compliant contracts |
 
-### Common Implementation Pitfalls
-
-```solidity
-
-function safeBatchTransferFrom(address from, address to, uint256[] memory ids, uint256[] memory amounts) external {
-    // Missing: require(ids.length == amounts.length, "LENGTH_MISMATCH");
-    for (uint i = 0; i < ids.length; i++) {
-        // Potential out-of-bounds access if amounts.length < ids.length
-        _safeTransferFrom(from, to, ids[i], amounts[i]);
-    }
-}
-
-
-
 
 
 
@@ -84,7 +70,23 @@ Receiver hooks act as **contract-level acknowledgments**. When a contract receiv
 
 ---
 
-### 3.3 ERC-1155 Receiver Hook — Canonical Secure Template
+
+
+### Common Implementation Pitfalls
+
+```solidity
+
+function safeBatchTransferFrom(address from, address to, uint256[] memory ids, uint256[] memory amounts) external {
+    // Missing: require(ids.length == amounts.length, "LENGTH_MISMATCH");
+    for (uint i = 0; i < ids.length; i++) {
+        // Potential out-of-bounds access if amounts.length < ids.length
+        _safeTransferFrom(from, to, ids[i], amounts[i]);
+    }
+}
+
+
+
+###  ERC-1155 Receiver Hook — Canonical Secure Template
 
 ```solidity
 contract SafeReceiver is IERC1155Receiver {
