@@ -39,7 +39,7 @@ The `safeBatchTransferFrom` function enables atomic transfer of multiple token t
 ### Common Implementation Pitfalls
 
 ```solidity
-// ❌ Dangerous: Missing array length check
+
 function safeBatchTransferFrom(address from, address to, uint256[] memory ids, uint256[] memory amounts) external {
     // Missing: require(ids.length == amounts.length, "LENGTH_MISMATCH");
     for (uint i = 0; i < ids.length; i++) {
