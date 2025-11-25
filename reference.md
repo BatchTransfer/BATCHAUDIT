@@ -1,9 +1,9 @@
 # ERC Standards & Security Knowledge Base
 
-## 1. ERC Standards Architecture & Design Philosophy
+## 1. ERC Standards
 
-### Modular Design Principles
-Ethereum Request for Comments (ERC) standards follow a modular architecture where newer standards build upon foundational ones to ensure ecosystem interoperability.
+### Design Principles
+Ethereum Request for Comments (ERC) standards follow a modular where newer standards build upon foundational ones to ensure ecosystem interoperability.
 
 **Core Dependencies:**
 - **ERC-165**: Provides standard interface detection mechanism
