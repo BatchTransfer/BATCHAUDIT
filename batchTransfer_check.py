@@ -223,7 +223,7 @@ def contains_assembly(code):
 
 def verify_erc1155_requirements(target_func: Dict, internal_functions: List[Dict]) -> Dict:
     
-    
+    # Modular component of the system
     """Verify if the function and its internal calls meet ERC1155 requirements."""
     requirements = {
         'sender_check': False,
