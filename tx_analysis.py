@@ -687,8 +687,8 @@ def main():
     args = parser.parse_args()
     
     # analyse_txs(args.tx_csv, args.annotated_csv)
-    csv_OnReceived = '/home/ashok/all_bytecode_txs_analysis_V4.csv'
-    csv_results_OnReceived = '/home/ashok/erc1155_results_OnReceived.csv'
+    csv_OnReceived = '/home/anon/all_bytecode_txs_analysis_V4.csv'
+    csv_results_OnReceived = '/home/anon/erc1155_results_OnReceived.csv'
     
     analyse_OnReceived(args.tx_csv, args.annotated_csv)
     # analyse_OnReceived(csv_OnReceived, csv_results_OnReceived)
