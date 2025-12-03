@@ -692,6 +692,7 @@ def check_on_received_implementation(code: str, params, isContract) -> bool:
 
 def analyze_safeBatchTransfer_interprocedural_analysis(solidity_code: str, target_sig) -> Dict:
     """Main analysis function for safeBatchTransferFrom compliance."""
+     # Modular component of the system, add the new target function rules and constrains to perfom analysis
     all_functions = find_all_functions(solidity_code)
     
     target_funcs = find_functions_by_signature(all_functions, target_sig)
