@@ -847,7 +847,8 @@ def get_eth_price():
 
 # Main execution function
 def main():
-    folder_path = "/home/ashok/output/"
+    folder_path = "/home/none/output/"
+    
     results = process_erc1155_contracts(folder_path)
     
     if results:
