@@ -316,13 +316,9 @@ def process_multiple_files(file_paths, output_dir="output", n_workers=None):
 if __name__ == "__main__":
     # List your CSV files
     csv_files = [
-        # "/home/ashok/data/binance_deduplicated_results.csv"
-        # ,
-        "/home/ashok/data/ethereum_deduplicated_results.csv"
-        # , 
-        # "/home/ashok/data/deduplicated_avalanche.csv"
-        # ,
-        # "/home/ashok/data/deduplicated_polygon.csv"
+        
+        "/home/none/data/ethereum_deduplicated_results.csv"
+        
     ]
     
     # Process all files
