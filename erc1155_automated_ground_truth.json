@@ -1,0 +1,70 @@
+"ERC1155_0x6tempxxxxxxxxxasdgsdafgafgafg.sol": {
+    "is_compliant": true,
+    "requirements": {
+      "sender_check": true,
+      "approval_check": true,
+      "zero_address_check": true,
+      "length_matching_check": true,
+      "event_emission_before_transfers": true,
+      "transfer_batch_event_found": true,
+      "to_isContract_check": true,
+      "on_received_check": true
+    },
+    "reason": "compliant"
+  },
+  "ERC1155_0x6tempxxxxxxxxxasdgsdafgafgafg.sol": {
+    "is_compliant": true,
+    "requirements": {
+      "sender_check": true,
+      "approval_check": true,
+      "zero_address_check": true,
+      "length_matching_check": true,
+      "event_emission_before_transfers": true,
+      "transfer_batch_event_found": true,
+      "to_isContract_check": true,
+      "on_received_check": true
+    },
+    "reason": "compliant"
+  },
+  "ERC1155_0x6tempxxxxxxxxxasdgsdafgafgafg.sol": {
+    "is_compliant": true,
+    "requirements": {
+      "sender_check": true,
+      "approval_check": true,
+      "zero_address_check": true,
+      "length_matching_check": true,
+      "event_emission_before_transfers": true,
+      "transfer_batch_event_found": true,
+      "to_isContract_check": true,
+      "on_received_check": true
+    },
+    "reason": "compliant"
+  },
+  "ERC1155_0x6tempxxxxxxxxxasdgsdafgafgafg.sol": {
+    "is_compliant": true,
+    "requirements": {
+      "sender_check": true,
+      "approval_check": true,
+      "zero_address_check": true,
+      "length_matching_check": true,
+      "event_emission_before_transfers": true,
+      "transfer_batch_event_found": true,
+      "to_isContract_check": true,
+      "on_received_check": true
+    },
+    "reason": "compliant"
+  },
+  "ERC1155_0x6tempxxxxxxxxxasdgsdafgafgafg.sol": {
+    "is_compliant": true,
+    "requirements": {
+      "sender_check": true,
+      "approval_check": true,
+      "zero_address_check": true,
+      "length_matching_check": true,
+      "event_emission_before_transfers": true,
+      "transfer_batch_event_found": true,
+      "to_isContract_check": true,
+      "on_received_check": true
+    },
+    "reason": "compliant"
+  },
